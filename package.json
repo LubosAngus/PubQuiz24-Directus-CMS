@@ -1,0 +1,23 @@
+{
+  "name": "pubquiz24-directus-cms",
+  "version": "0.0.1",
+  "description": "Headless CMS for PubQuiz24 app",
+  "main": "index.js",
+  "scripts": {
+    "initialize": "directus bootstrap && directus schema apply --yes ./db-snapshot.yaml",
+    "start": "directus start"
+  },
+  "author": "LubosAngus",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LubosAngus/PubQuiz24-Directus-CMS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LubosAngus/PubQuiz24-Directus-CMS/issues"
+  },
+  "homepage": "https://github.com/LubosAngus/PubQuiz24-Directus-CMS#readme",
+  "dependencies": {
+    "directus": "^11.2.1"
+  }
+}

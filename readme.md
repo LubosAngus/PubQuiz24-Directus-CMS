@@ -1,6 +1,6 @@
 # PubQuiz24 Directus CMS
 
-To learn more about Directus [follow this link](https://docs.directus.io/self-hosted/cli.html) to learn more.
+To learn more about Directus [follow this link](https://docs.directus.io/self-hosted/cli.html).
 
 ## Bootstrap this CMS
 
@@ -16,6 +16,20 @@ After the file is created, we can initialize directus CMS.
 
 ```sh
 npm run initialize
+```
+
+## Run admin
+
+```sh
+npm run start
+```
+
+Go to [localhost:8055/admin/login](http://localhost:8055/admin/login), login with credentials in .env _(only creating user when initializing)_.\
+Default are:
+
+```
+admin@quiz.app
+1234567890
 ```
 
 ## Create data

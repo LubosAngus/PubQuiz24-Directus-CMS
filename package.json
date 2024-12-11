@@ -2,6 +2,7 @@
   "name": "pubquiz24-directus-cms",
   "version": "0.0.1",
   "description": "Headless CMS for PubQuiz24 app",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "initialize": "directus bootstrap && directus schema apply --yes ./db-snapshot.yaml",

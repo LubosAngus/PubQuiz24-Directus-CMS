@@ -1,3 +1,9 @@
+> [!NOTE]
+> I was deciding between [strapi](https://strapi.io/) and [directus](https://directus.io/) for this CMS.\
+> I went with directus, because I wanted to try it out. Turns out, it wasn't such a good choice.\
+> Building up database from schema is pain in the ass. Not everything is exported to schema.\
+> So in the next update I'm going to rewrite this to strapi.
+
 # PubQuiz24 Directus CMS
 
 To learn more about Directus [follow this link](https://docs.directus.io/self-hosted/cli.html).
